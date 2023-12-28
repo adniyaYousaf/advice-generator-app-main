@@ -21,7 +21,7 @@ body {
 body .container {
   position: relative;
   background: hsl(217, 19%, 38%);
-  height: auto;
+  height: 15rem auto;
   width: 28rem;
   border-radius: 1rem;
   padding-block: 1rem;
@@ -38,6 +38,7 @@ body .container p {
   font-size: 1rem;
   padding-block: 1rem 3.6rem;
   color: hsl(193, 38%, 86%);
+  margin-bottom: 2.5rem;
 }
 body .container .pauseIcon {
   position: absolute;
@@ -72,7 +73,7 @@ body .container button {
   height: 3rem;
   width: 3rem;
   left: 46.5%;
-  top: 93%;
+  top: 89%;
   border-radius: 50%;
   border: none;
   background: hsl(150, 100%, 66%) url(/images/icon-dice.svg) no-repeat;
